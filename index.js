@@ -9,16 +9,16 @@ const _EXCLUDED = [
 const containerButtonStyle = `
   position: fixed;
   background: white;
-  padding: 1rem;
-  top: 50px;
-  right: 50px;
+  padding: 1px;
+  top: 1px;
+  right: 1px;
   z-index: 99999;
   border: 1px solid black;
 `
 
 const buttonStyle = `
-  padding: 1rem;
-  font-size: 16px;
+  padding: 1px;
+  font-size: 10px;
   background: #ddd;
   border: 1px solid black;
   cursor: pointer;
