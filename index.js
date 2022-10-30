@@ -36,7 +36,7 @@ const isFunction = (f) => f instanceof Function
 
 function findInputElements () {
   if (typeof window === 'undefined') {
-    console.warning('Form autofill just works in client side')
+    console.log('Form autofill just works in client side')
     return null
   }
 
@@ -49,7 +49,7 @@ function findInputElements () {
 
 function fillElements (elements = [], defaultValues = {}) {
   if (!elements.length) {
-    console.warning('cannot find DOM input elements')
+    console.log('cannot find DOM input elements')
     return null;
   }
 
